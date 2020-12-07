@@ -12,7 +12,7 @@ The IO data was from Twitter's publically released datasets. This data was used 
 
 #### Multinomial Naive Bayes with TFIDF
 
-Accuracy:  0.7655613728912158
+Accuracy:  0.7655613728912158  
 Precision:  0.9976798143851509
 Recall:  0.5168269230769231
 F1 Score: 0.6809184481393509
