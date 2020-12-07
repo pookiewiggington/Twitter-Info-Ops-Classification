@@ -10,7 +10,7 @@ The IO data was from Twitter's publically released datasets. This data was used 
 
 ### Multinomial Naive Bayes and Stochastic Gradient Descent models trained on user Bag of Words vectors using Count Vectorization and TFIDF
 
-Multinomial Naive Bayes with TFIDF
+#### Multinomial Naive Bayes with TFIDF
 
 Accuracy:  0.7655613728912158
 Precision:  0.9976798143851509
@@ -18,7 +18,7 @@ Recall:  0.5168269230769231
 F1 Score: 0.6809184481393509
 
 
-Stochastic Gradient Descent Classifier with TFIDF
+#### Stochastic Gradient Descent Classifier with TFIDF
 
 Accuracy:  0.9813845258871436
 Precision:  0.977326968973747
@@ -26,7 +26,7 @@ Recall:  0.984375
 F1 Score: 0.9808383233532934
 
 
-Multinomial Naive Bayes with Count Vectorizer
+#### Multinomial Naive Bayes with Count Vectorizer
 
 Accuracy:  0.8987783595113438
 Precision:  0.9838235294117647
@@ -34,7 +34,7 @@ Recall:  0.8040865384615384
 F1 Score: 0.8849206349206349
 
 
-Stochastic Gradient Descent with Count Vectorizer
+#### Stochastic Gradient Descent with Count Vectorizer
 
 Accuracy:  0.9825479930191972
 Precision:  0.972877358490566
@@ -43,7 +43,7 @@ F1 Score: 0.9821428571428571
 
 ### Multilayer Perceptron Neural Network trained on user Bag of Words using Count Vectorization
 
-Neural Network Model Performance
+#### Neural Network Model Performance
 
 Accuracy:  0.9825479930191972
 Precision:  0.9844357976653697
@@ -52,7 +52,7 @@ F1 Score: 0.9806201550387598
 
 ### Random Forests and Support Vector Classifier trained on user pattern of life features
 
-Random Forest prediction on non-BoW features
+#### Random Forest prediction on non-BoW features
 
 Accuracy:  0.9994182664339732
 Precision:  0.9987995198079231
@@ -60,7 +60,7 @@ Recall:  1.0
 F1 Score: 0.9993993993993994
 
 
-SVC prediction on non-BoW features
+#### SVC prediction on non-BoW features
 
 Accuracy:  0.9982547993019197
 Precision:  0.9964071856287425
@@ -69,28 +69,28 @@ F1 Score: 0.9982003599280144
 
 ### Ensemble Methods combining BoW and user pattern of life features
 
-SGD CV, SGD TFIDF, Random Forests Ensemble
+#### SGD CV, SGD TFIDF, Random Forests Ensemble
 
 Accuracy:  0.9901105293775451
 Precision:  0.9856972586412396
 Recall:  0.9939903846153846
 F1 Score: 0.9898264512268103
 
-SGD CV, SGD TFIDF, SVC Ensemble
+#### SGD CV, SGD TFIDF, SVC Ensemble
 
 Accuracy:  0.9901105293775451
 Precision:  0.9856972586412396
 Recall:  0.9939903846153846
 F1 Score: 0.9898264512268103
 
-SGD CV, SVC, Random Forests Ensemble
+#### SGD CV, SVC, Random Forests Ensemble
 
 Accuracy:  0.9988365328679465
 Precision:  0.9976019184652278
 Recall:  1.0
 F1 Score: 0.9987995198079231
 
-SGD TFIDF, SVC, Random Forests Ensemble
+#### SGD TFIDF, SVC, Random Forests Ensemble
 
 Accuracy:  0.9988365328679465
 Precision:  0.9976019184652278
