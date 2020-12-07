@@ -1,12 +1,12 @@
 <div align="center"><h1>Using Machine Learning to Classify Information Operations on Twitter Using Natural Language Processing, User Patterns of Life, and Ensemble Methods</h1></div>
 
-## Purpose: 
+## Purpose
 The purpose of this project is to evaluate different approaches to classifying information operations and disinformation activity targeting from legitimate user activity on Twitter. This project specifically attempts to classify Russian information operations (IO) users targeting English-language victims from legitimate users.
 
-## Method: 
+## Method
 The IO data was from Twitter's publically released datasets. This data was used to generate a comprehensive list of words, which were used to randomly query legitimate users by topic via Twitter's API. These legitimate users were then filtered for bots using the Botometer API. A Bag of Words was then developed for every user from the aggregate of their tweets, and additional pattern-of-life metrics and statistics were calculated from their posting and engagement behavior. We then evaluated machine learning models on the BoW vectors and pattern-of-life metrics separately, and then performed ensemble voting methods using models trained on both BoW and pattern of life features. Models trained on the BoW vectors include Multinomial Naive Bayes, Stochastic Gradient Descent, and a Multilayer Perceptron Network. Models trained on the user pattern of life metrics included Random Forests and a Support Vector Classifier.
 
-## Results:
+## Results
 
 ### Multinomial Naive Bayes and Stochastic Gradient Descent models trained on user Bag of Words vectors using Count Vectorization and TFIDF
 
@@ -97,8 +97,8 @@ Precision:  0.9976019184652278
 Recall:  1.0  
 F1 Score: 0.9987995198079231
 
-## Environment: 
+## Environment 
 Code was developed in Google Colab Pro using a High-RAM and TPU runtime environment with data stored in Google Drive, because the amount of RAM required exceeded the capabilities of a personal PC, so file storage and retrieval operations in the code reflect this.
 
-## Data: 
+## Data
 Original datasets can be downloaded from Twitter's public Information Operations datasets: https://transparency.twitter.com/en/reports/information-operations.html. Data used for this project includes the Russian datasets released in September 2020, May 2020, June 2019, January 2019, and October 2018. The final formatted user and tweet datasets used to train these models can be accessed on Kaggle at https://www.kaggle.com/pookiewiggington/twitter-information-operations-classification. All identifying user information in the legitimate users data has been hashed.
