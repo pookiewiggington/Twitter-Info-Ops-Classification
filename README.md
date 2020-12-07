@@ -1,4 +1,4 @@
-# Twitter Information Operations Classification Using Natural Language Processing, User Patterns of Life, and Ensemble Methods
+# Classifying Twitter Information Operations Using Natural Language Processing, User Patterns of Life, and Ensemble Methods
 
 ## Purpose: 
 The purpose of this project is to evaluate different approaches to classifying information operations and disinformation activity targeting from legitimate user activity on Twitter. This project specifically attempts to classify Russian information operations (IO) users targeting English-language victims from legitimate users.
